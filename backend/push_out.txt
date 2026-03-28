@@ -1,0 +1,12 @@
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": PostgreSQL database "neondb", schema "public" at "ep-delicate-brook-a4h21bhw-pooler.us-east-1.aws.neon.tech"
+
+
+⚠️ We found changes that cannot be executed:
+
+  • Added the required column `userId` to the `EventType` table without a default value. There are 1 rows in this table, it is not possible to execute this step.
+
+
+[?25l[2K[1G[36m?[39m [1mTo apply this change we need to reset the database, do you want to continue? All data will be lost.[22m [90m»[39m [90m(y/N)[39m[2K[1G[2K[1G[31m×[39m [1mTo apply this change we need to reset the database, do you want to continue? All data will be lost.[22m [90m...[39m no
+[?25hReset cancelled.
