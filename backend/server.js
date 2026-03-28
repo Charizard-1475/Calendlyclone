@@ -11,9 +11,7 @@ const prisma = new PrismaClient();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || 'supersecret123';
 
-app.use(cors({
-  origin: ['http://localhost:5173', 'https://calendlyclone-kh5n.vercel.app']
-}));
+app.use(cors());
 app.use(express.json());
 
 // ==========================================
